@@ -809,7 +809,7 @@ h4 {
 //========================================================================================================================================================
 // Портфолио
 .work-examples {
-	background: #F2F2F2;
+	// background: #F2F2F2;
 }
 
 .work-examples-main {
@@ -855,7 +855,7 @@ h4 {
 	overflow: hidden;
 	background: #F2F2F2;
 	height: 100%;
-	padding-bottom: 53%;
+	padding-bottom: 50%;
 	// height: 247px;
 	// padding-bottom: 0;
 	// padding: 8px;
@@ -891,11 +891,15 @@ h4 {
 	transition: all 1s;
 	// background-color: #00000099;
 	// background: #FED529;
-	background-color: #00000025;
+	background-color: #00000015;
 
 	span {
 		// font-size: 26px;
 		font-size: 18px;
+
+		br {
+			display: none;
+		}
 
 		@media (max-width: 768px) {
 			font-size: 16px;
@@ -904,9 +908,9 @@ h4 {
 }
 
 .work-examples__card-nuar_blk-text {
-	padding: 10px;
+	padding: 6px 10px;
 	width: 100%;
-	font-size: 20px;
+	font-size: 14px;
 	background-color: #00000099;
 
 	@media (max-width: 768px) {
