@@ -16,6 +16,17 @@
 	}
 }
 
+@media (max-width: 1200px) {
+	.services__row {
+		margin: 0 -10px;
+	}
+
+	.work-examples__column {
+    -ms-flex: 0 1 33.333%;
+    flex: 0 1 33.333%;
+	}
+}
+
 @media (max-width: 1050px) {
 	.menu {
 		margin: 0 15px;
@@ -38,10 +49,6 @@
 	.menu__link:hover {
 		background: none;
 		color: #fff;
-	}
-
-	.work-examples__column {
-		flex: 0 1 50%;
 	}
 
 	.sliderMain__slide {
@@ -68,6 +75,12 @@
 
 	.services__row {
 		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 991px){
+	.work-examples__column {
+		flex: 0 1 50%;
 	}
 }
 
@@ -624,7 +637,7 @@
 	}
 
 	.page {
-		padding-top: 20px;
+		// padding-top: 20px;
 	}
 
 	.mob-menu {
