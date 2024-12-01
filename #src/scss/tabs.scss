@@ -3,11 +3,15 @@
 	&__nav {
 		display: flex;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: 0.3125rem;
 		width: auto;
 		overflow: auto;
 		margin: 0 -0.625rem;
     padding: 0 0.625rem;
+		@media (max-width: 1024px){
+			  flex-wrap: nowrap;
+		}
 	}
 	::-webkit-scrollbar,
 	::-webkit-scrollbar-thumb {

@@ -2892,6 +2892,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 0.3125rem;
   width: auto;
   overflow: auto;
@@ -4658,7 +4660,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   overflow: hidden;
   background: #F2F2F2;
   height: 100%;
-  padding-bottom: 50%;
+  padding-bottom: 51.5%;
 }
 
 .work-examples__card img {
@@ -4976,6 +4978,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 @media (max-width: 1024px) {
+  .tabs-block__nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
   .menu__link:hover {
     background: none;
     color: #fff;
